@@ -4,4 +4,4 @@ Problem : Airdrop to user using record stored on backend database. Smart contrac
 
 Solution : Using EIP‑712 to sign structured data by admin and pass the signature as parameter to claim function that will recover and verify the signature.
 
-I will ad nonce and deadline for making it more secure. 
+I will add nonce and deadline for making it more secure. 
