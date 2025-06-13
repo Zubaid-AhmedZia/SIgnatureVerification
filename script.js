@@ -11,7 +11,6 @@ async function main() {
   const SIGNER_PRIVATE_KEY    = "";   // backend signer key
   const CLAIMANT_PRIVATE_KEY  = ""; // user wallet key
   const CONTRACT_ADDRESS      = "0x8632eB55fe339Dc8a8c73f0aE28Bc5168Df6454d"
-//0eb344cada316f13a38e56ee0445c542291803683e5984fcfd022bbd99b4d553 admin pv key
   if (!RPC_URL || !SIGNER_PRIVATE_KEY || !CLAIMANT_PRIVATE_KEY || !CONTRACT_ADDRESS) {
     console.error("Missing env vars: set RPC_URL, SIGNER_PRIVATE_KEY, CLAIMANT_PRIVATE_KEY, CONTRACT_ADDRESS");
     process.exit(1);
